@@ -11,7 +11,7 @@ public class Adivinhacao {
         int numeroDigitado = 0;
         while (tentativa<5) {
             System.out.println("Adivinhe um numero entre 0 a 50:");
-            numeroDigitado = entrada.nextInt();
+            numeroDigitado = entrada.nextInt(); 
             tentativa++;
 
             if (numeroDigitado==numeroAleatorio) {
